@@ -4,6 +4,5 @@ To easily calculate crc 16
 
 ### How
 
-- Change the bytes in [src/main.rs](src/main.rs)
-  - ***including etb byte***;
-- Run `cargo run`.
+Run `cargo run`, with the bytes of the package as parameter,
+***without verification bytes***.
